@@ -1,0 +1,108 @@
+ body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, #8170d5 40%, #9ac4f7 60%);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  
+  .header {
+    text-align: left;
+    position: relative;
+  }
+  
+  .ai-box {
+    background-color: #90DFFF;
+    color: #222;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 10px 0 5px;
+    color: white;
+  }
+  
+  .header h1 span {
+    color: #FFA0D5;
+  }
+  
+  .upload-box {
+    background-color: #D4C9FF;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px 0;
+    color: black;
+  }
+
+  .upload-area {
+    border: 2px dashed #A89BFF;
+    padding: 30px 0;
+    border-radius: 10px;
+    background-color: #E6E2FF;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #file-input {
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  #image-preview {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: none;
+  }
+  
+  #result-box {
+    padding: 15px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    color: #333;
+    display: none;
+  }
+
+  button {
+    background-color: #FFA835;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f28f0f;
+}
